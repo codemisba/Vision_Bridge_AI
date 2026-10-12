@@ -53,10 +53,10 @@ The application is configured to support the following languages:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com
+git clone https://github.com/codemisba
 cd vision-bridge-ai
 ```
-*(Replace `YOUR-USERNAME` with your actual GitHub username.)*
+
 
 ### 2. Install Frontend Dependencies
 ```bash
@@ -69,9 +69,6 @@ Create a `.env` file in the project root and add your Supabase configuration:
 VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
 ```
-If required by your AI integration, configure `LOVABLE_API_KEY` as a secret in your Supabase Edge Function environment.
-
-⚠️ **Important:** Never upload private API keys, passwords, or other sensitive credentials to GitHub. Ensure `.env` is added to your `.gitignore` file.
 
 ### 4. Start the Frontend
 ```bash
