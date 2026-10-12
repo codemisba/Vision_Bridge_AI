@@ -1,0 +1,6 @@
+flask==2.2.5
+flask-cors==4.0.0
+requests==2.31.0
+urllib3==1.26.16
+beautifulsoup4==4.12.2
+python-dotenv==0.21.1
